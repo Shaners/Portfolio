@@ -5,6 +5,9 @@
 ## Task List
 
 **v0.0.2**
+- [ ] Push node_modules out of git
+- [ ] Update instructions to include dependency installs
+- [ ] Clone to cloud Linux VM and use as main working environment
 - [ ] Write a project description
 - [ ] Add font awesome
 - [ ] Add novecento font

@@ -5,7 +5,9 @@ A collection of thoughts that went into planning and implementing this project.
 **v0.0.2**
 Gulp tasks running. Other basic pages constructed. Add fonts.
 
-We probably need to move to a Linux VM to work on this since windows git and npm is super annoying... Or we could remove node_modules and just install per environment. Linux web VM gives us one environment we don't have to mess around with though...
+We probably need to move to a Linux VM to work on this since windows git and npm is super annoying... Or we could remove node_modules and just install per environment. Linux cloud VM gives us one environment we don't have to mess around with though... Yea this is stupid, work in cloud VM and get rid of node_modules.
+
+Can gulp auto check and install dependencies?
 
 **v0.0.1**
 Most files in place. Structure decisions made. Basic html layout in place.
