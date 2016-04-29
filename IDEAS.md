@@ -1,12 +1,20 @@
 # Ideas
 
-A collection of thoughts that went into planning and implmenting this project.
+A collection of thoughts that went into planning and implementing this project.
+
+**v0.0.2**
+Gulp tasks running. Other basic pages constructed. Add fonts.
+
+We probably need to move to a Linux VM to work on this since windows git and npm is super annoying... Or we could remove node_modules and just install per environment. Linux web VM gives us one environment we don't have to mess around with though...
 
 **v0.0.1**
 Most files in place. Structure decisions made. Basic html layout in place.
 
+**Planning Questions**
+Should we use jQuery mobile?
+
 Do we really need a separate changelog?
-  No, no separate changelog. Project isn't that complicated and finer details can be gathered from commit history.
+  No separate changelog. Project isn't that complicated. Maybe we can automate this with Gulp.
 
 Do we need everything inside the readme?
   Everything in there now is good.
@@ -18,41 +26,40 @@ Do we want to use a task runner? Gulp vs Grunt.
   Yes, let's minimize easier. Let's use Gulp. There's nothing wrong with Grunt but Gulp feels a bit better.
 
 Should we add modernizer?
-  No real reason not to, provides us with good feature detection. Make sure to minimize it.
+  Yes, no real reason not to, provides us with good feature detection. Make sure to minimize it.
 
-Should we add jquery to the project?
+Should we add jQuery to the project?
+  Yes, no real reason not to, provides some good cross browser compatibility.
 
-Do we want to use a templating system?
-  Jade vs mustache vs handlebars
+Do we want to use a templating system? Jade vs mustache vs handlebars.
+  Yes we want to use a templating engine. Lets go with handlebars because I don't like the white space thing too much. Maybe it would grow on me.
 
 Require vs browserify vs webpack?
+  Lets try integrating webpack after the project is more mature. It may be overkill.
 
-Why include node?
-
-Does Express elminate the need for other libraries?
+CSS Preprocessor?
+  Yes, lets use Sass with gulp.
 
 CDN then local fall back?
-
-Do we want to use Coffeescript?
-  No, not for this project.
+  Needs further review.
 
 What can structured data markup do for us?
+  Review near the end of the project.
+
+Are there any special JS events to track with Google Analytics?
+  No not really.
 
 Do we want to use a full featured database?
   No, it's likely overkill for this project.
 
-Can Stylus add anything to the project?
-
-Should sub pages have their own directory?
-
-Can backbone add any value to the project?
+Do we want to use Coffeescript?
+  No, not for this project.
 
 Should we use React to the project?
+  No, not for this project. It might be useful but is kind of overkill.
 
-Would underscore add value?
+Should we use node?
+  No, it would be overkill for this project.
 
-Would AngularJS be overkill?
-
-Are there any special JS events to track with Google Analytics?
-
-Do we need user stories?
+Should we use Express?
+  No it's a bit overkill for this project.

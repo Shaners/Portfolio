@@ -4,15 +4,43 @@
 
 ## Task List
 
+**v0.0.2**
+- [ ] Write a project description
+- [ ] Add font awesome
+- [ ] Add novecento font
+- [ ] Add Montserrat font
+- [ ] Put logo into img directory
+- [ ] Make a decision about skills.html
+- [ ] Make a search decision
+- [ ] Add Google Analytics
+- [ ] Get gulp to automatically write CHANGELOG.md
+- [ ] Get gulp minimizing js files
+- [ ] Get gulp concatenating js files
+- [ ] Get gulp minimizing css files
+- [ ] Get gulp concatenating css files
+- [ ] Get gulp-autoprefixer working
+- [ ] Test out gulp-changed
+- [ ] Get Handlebars running
+- [ ] Integrate Handlebars with gulp
+- [ ] Get Sass watching
+- [ ] Integrate Sass with gulp
+- [ ] Plan next 5 task items
+- [ ] Write test
+- [ ] Run tests with gulp
+
+**v0.0.1**
 - [X] Sketch layout and business requirements
 - [X] Layout groundwork files
-- [ ] Brainstorm some rough ideas
-- [ ] Remove separate changelog.md
-- [ ] Write a project description
-- [ ] Plan 5 task items
-- [ ] Add Normalize.css
-- [ ] Integrate Gulp into workflow
-- [ ] Add modernizr
+- [X] Answer planning questions
+- [X] Remove separate changelog.md
+- [X] Plan 5 task items
+- [X] Add Normalize.css
+- [X] Add modernizr
+- [X] Add jQuery
+- [X] Setup Gulp
+- [X] Layout basic html elements
+- [X] Add handlebars
+- [X] Add Sass
 
 See [IDEAS.md](./IDEAS.md) for brainstorming.
 
@@ -32,8 +60,7 @@ See [IDEAS.md](./IDEAS.md) for brainstorming.
 
 | Version | Date | Changes |
 | ------- | ---- | ------- |
-| **v0.0.1** | 0 | 0 |
-| | | 0 |
+| **v0.0.1** | 2016-04-29 | Most files in place. Structure decisions made. Basic html layout in place. |
 
 ## Credits
 
