@@ -4,11 +4,15 @@
 
 ## Task List
 
+- [X] Sketch layout and business requirements
+- [X] Layout groundwork files
+- [ ] Brainstorm some rough ideas
+- [ ] Remove separate changelog.md
 - [ ] Write a project description
-- [ ] Add all basic files
-- [ ] Plan more tasks
-- [ ] Add normalize.css
-- [ ] Consider adding Gulp
+- [ ] Plan 5 task items
+- [ ] Add Normalize.css
+- [ ] Integrate Gulp into workflow
+- [ ] Add modernizr
 
 See [IDEAS.md](./IDEAS.md) for brainstorming.
 
@@ -26,17 +30,9 @@ See [IDEAS.md](./IDEAS.md) for brainstorming.
 
 ## History
 
-See full log in [CHANGELOG.md](./CHANGELOG.md)
-
 | Version | Date | Changes |
 | ------- | ---- | ------- |
-| **v0.0.3** | 0 | 0 |
-| | | 0
-| **v0.0.2** | 0 | 0 |
-| | | 0 |
 | **v0.0.1** | 0 | 0 |
-| | | 0 |
-| | | 0 |
 | | | 0 |
 
 ## Credits
