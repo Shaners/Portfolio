@@ -17,6 +17,14 @@ gulp changelog is kind of weird. Revisit this later.
 
 LiveReload is kind of broken.
 
+Revisit later:
+- [ ] Gulp changelog
+- [ ] Gulp Browser Synx
+- [ ] Gulp Changed
+- [ ] Gulp Handlebars
+- [ ] Sass
+- [ ] Gulp Sass
+
 **v0.0.1**
 Most files in place. Structure decisions made. Basic html layout in place.
 
