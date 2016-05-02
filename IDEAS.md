@@ -17,6 +17,14 @@ gulp changelog is kind of weird. Revisit this later.
 
 LiveReload is kind of broken.
 
+We can push to github less since we're workin in cloud.
+
+Should we have a better project name?
+
+If we need to load files in order use:
+
+```gulp.src(['src/js/plugins/*.js', 'src/js/main.js'])```
+
 Revisit later:
 - [ ] Gulp changelog
 - [ ] Gulp Browser Synx

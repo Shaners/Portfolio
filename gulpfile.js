@@ -15,7 +15,7 @@ gulp.task('default', function () {
 gulp.task('scripts', function() {
   return gulp.src('src/js/**/*.js')
     .pipe(concat('main.js'))
-    .pipe(gulp.dest('public/js'))
+    // .pipe(gulp.dest('public/js'))
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
     .pipe(gulp.dest('public/js'))
@@ -25,7 +25,7 @@ gulp.task('scripts', function() {
 gulp.task('styles', function() {
   return gulp.src('src/css/**/*.css')
     .pipe(concat('main.css'))
-    .pipe(gulp.dest('public/css'))
+    // .pipe(gulp.dest('public/css'))
     .pipe(rename({suffix: '.min'}))
     .pipe(autoprefixer('last 2 version'))
     .pipe(cssnano())
