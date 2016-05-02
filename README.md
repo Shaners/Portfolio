@@ -45,16 +45,18 @@ See [IDEAS.md](./IDEAS.md) for brainstorming.
 ## Installation
 
 Clone Repo:
+
 ```$ git clone https://github.com/Shaners/portfolio.git```
 
 Install Dependencies:
+
 ```$ npm install gulp gulp-autoprefixer gulp-cssnano gulp-concat gulp-uglify gulp-notify gulp-rename --save-dev```
 
 ## Usage
 
 **usage description here**
 
-1. ```gulp watch```
+1. ```$ gulp watch```
 
 ## History
 
