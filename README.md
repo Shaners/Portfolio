@@ -1,33 +1,34 @@
 # Portfolio
 
-**description here**
+Build a portfolio website demonstrate your skills and past work.
 
 ## Task List
 
 **v0.0.2**
-- [ ] Push node_modules out of git
-- [ ] Update instructions to include dependency installs
-- [ ] Clone to cloud Linux VM and use as main working environment
-- [ ] Write a project description
-- [ ] Add font awesome
-- [ ] Add novecento font
-- [ ] Add Montserrat font
-- [ ] Put logo into img directory
-- [ ] Make a decision about skills.html
-- [ ] Make a search decision
-- [ ] Add Google Analytics
-- [ ] Get gulp to automatically write CHANGELOG.md
-- [ ] Get gulp minimizing js files
-- [ ] Get gulp concatenating js files
-- [ ] Get gulp minimizing css files
-- [ ] Get gulp concatenating css files
-- [ ] Get gulp-autoprefixer working
-- [ ] Test out gulp-changed
+- [X] Push node_modules out of git
+- [X] Clone to cloud9
+- [X] Write a project description
+- [X] Add font awesome
+- [X] Add novecento font
+- [X] Add Montserrat font
+- [X] Put logo into img directory
+- [X] Make a decision about skills.html
+- [X] Make a search decision
+- [X] Add Google Analytics
+- ~~[ ] Get gulp to automatically write CHANGELOG.md~~
+- [X] Get gulp minimizing js files
+- [X] Get gulp concatenating js files
+- [X] Get gulp minimizing css files
+- [X] Get gulp concatenating css files
+- [X] Get gulp-autoprefixer working
+- ~~[ ] Get gulp browsersync working~~
+- ~~[ ] Test out gulp-changed~~
 - [ ] Get Handlebars running
-- [ ] Integrate Handlebars with gulp
-- [ ] Get Sass watching
-- [ ] Integrate Sass with gulp
+- ~~[ ] Integrate Handlebars with gulp~~
+- ~~[ ] Get Sass watching ~~
+- ~~[ ] Integrate Sass with gulp~~
 - [ ] Plan next 5 task items
+- [X] Update instructions to include dependency installs
 - [ ] Write test
 - [ ] Run tests with gulp
 
@@ -50,6 +51,14 @@ See [IDEAS.md](./IDEAS.md) for brainstorming.
 ## Installation
 
 ```git clone https://github.com/Shaners/portfolio.git```
+```npm install --save-dev gulp```
+```npm install --save-dev gulp-autoprefixer```
+```npm install --save-dev gulp-cssnano```
+```npm install --save-dev gulp-concat```
+```npm install --save-dev gulp-uglify```
+```npm install --save-dev gulp-livereload```
+```npm install --save-dev gulp-notify```
+```npm install --save-dev gulp-rename```
 
 ## Usage
 

@@ -9,6 +9,14 @@ We probably need to move to a Linux VM to work on this since windows git and npm
 
 Can gulp auto check and install dependencies?
 
+Include skills.html but link to it in a special way.
+
+Include search later if there is a need for it.
+
+gulp changelog is kind of weird. Revisit this later.
+
+LiveReload is kind of broken.
+
 **v0.0.1**
 Most files in place. Structure decisions made. Basic html layout in place.
 
