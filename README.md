@@ -46,6 +46,7 @@ See [IDEAS.md](./IDEAS.md) for brainstorming.
 
 Clone Repo:
 ```$ git clone https://github.com/Shaners/portfolio.git```
+
 Install Dependencies
 ```$ npm install gulp gulp-autoprefixer gulp-cssnano gulp-concat gulp-uglify gulp-notify gulp-rename --save-dev```
 
