@@ -52,6 +52,10 @@ Install Dependencies:
 
 ```$ npm install gulp gulp-autoprefixer gulp-cssnano gulp-concat gulp-uglify gulp-notify gulp-rename --save-dev```
 
+Or:
+
+```$ npm install```
+
 ## Usage
 
 **usage description here**

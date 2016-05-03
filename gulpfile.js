@@ -8,12 +8,12 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
 
 gulp.task('default', function () {
-  // place code for your default task here
   gulp.start('scripts', 'styles');
 });
 
 gulp.task('scripts', function() {
-  return gulp.src('src/js/**/*.js')
+  // return gulp.src('src/js/**/*.js')
+  return gulp.src(['src/js/lib/handlebars-v4.0.5', 'src/js/lib/jquery-1.12.3.js', 'src/js/**/*.js'])
     .pipe(concat('main.js'))
     // .pipe(gulp.dest('public/js'))
     .pipe(rename({suffix: '.min'}))
