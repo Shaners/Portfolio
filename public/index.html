@@ -21,30 +21,25 @@
 
 <body>
   <header></header>
-
+  
   <main>
-    <img src="img/big-photo.jpg">
-    <h1>Shane Lister blurb</h1>
-
-    <h2>My Work</h2>
-
-    <section>
-      <img src="img/project-image.png">
-      <h3>Project Title</h3>
-      <p>blurb about project</p>
-    </section>
-    <section>
-      <img src="img/project-image.png">
-      <h3>Project Title</h3>
-      <p>blurb about project</p>
-    </section>
-    <section>
-      <img src="img/project-image.png">
-      <h3>Project Title</h3>
-      <p>blurb about project</p>
-    </section>
-
-    <p>See more work</p>
+    <script id="main-content" type="text/x-handlebars-template">
+      <img src="{{ bigPhoto }}">
+      <h1>{{ tagLine }}</h1>
+      <p>{{ authorBlurb }}</p>
+  
+      <h2>My Work</h2>
+      
+      {{#each featuredProjects}}
+        <section>
+          <img src="{{ image }}">
+          <h3>{{ name }}</h3>
+          <p>{{ blurb }}</p>
+        </section>
+      {{/each}}
+  
+      <p><a href="#">See more work</a></p>
+    </script>
   </main>
 
   <footer></footer>

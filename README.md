@@ -20,11 +20,9 @@ Build a portfolio website demonstrate your skills and past work.
 - [X] Get gulp minimizing css files
 - [X] Get gulp concatenating css files
 - [X] Get gulp-autoprefixer working
-- [ ] Get Handlebars running
-- [ ] Plan next 5 task items
 - [X] Update instructions to include dependency installs
-- [ ] Write test
-- [ ] Run tests with gulp
+- [X] Get Handlebars running
+- [ ] Plan next version
 
 **v0.0.1**
 - [X] Sketch layout and business requirements

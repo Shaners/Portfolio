@@ -27,7 +27,7 @@ If we need to load files in order use:
 
 Revisit later:
 - [ ] Gulp changelog
-- [ ] Gulp Browser Synx
+- [ ] Gulp Browser Sync
 - [ ] Gulp Changed
 - [ ] Gulp Handlebars
 - [ ] Sass
