@@ -1,13 +1,13 @@
-# Portfolio
+# Snap Persona - Web Portfolio Template
 
-Build a portfolio website demonstrate your skills and past work.
+Easily build a personal portfolio website to demonstrate your skills and past work.
 
 ## Task List
 
 **v0.0.3**
 - [ ] Convert the header and footer to partials
 - [ ] Write a better description
-- [ ] Create a better project name
+- [X] Create a better project name
 - [ ] Layout about.html
 - [ ] Layout contact.html
 - [ ] Layout skills.html
