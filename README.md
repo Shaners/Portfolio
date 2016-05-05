@@ -4,6 +4,15 @@ Build a portfolio website demonstrate your skills and past work.
 
 ## Task List
 
+**v0.0.3**
+- [ ] Convert the header and footer to partials
+- [ ] Write a better description
+- [ ] Create a better project name
+- [ ] Layout about.html
+- [ ] Layout contact.html
+- [ ] Layout skills.html
+- [ ] Layout work.html
+
 **v0.0.2**
 - [X] Push node_modules out of git
 - [X] Clone to cloud9
@@ -22,7 +31,6 @@ Build a portfolio website demonstrate your skills and past work.
 - [X] Get gulp-autoprefixer working
 - [X] Update instructions to include dependency installs
 - [X] Get Handlebars running
-- [ ] Plan next version
 
 **v0.0.1**
 - [X] Sketch layout and business requirements
@@ -64,6 +72,7 @@ Or:
 
 | Version | Date | Changes |
 | ------- | ---- | ------- |
+| **v0.0.2** | 2016-05-05 | Gulp tasks running. Main page constructed. Added fonts. |
 | **v0.0.1** | 2016-04-29 | Most files in place. Structure decisions made. Basic html layout in place. |
 
 ## Credits
