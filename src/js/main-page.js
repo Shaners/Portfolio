@@ -1,12 +1,6 @@
 /* global $ Handlebars*/
 
-var headerData = {
-  headerLogo: "img/header-logo.png",
-  authorName: "Shane Lister",
-  nav:[{page: "Work"},{page: "Skills"},{page: "About"},{page: "Contact"}]
-};
-
-var headerTemplate = 
+var headerSource =
   '<img src="{{ headerLogo }}">' +
   '<h1>{{ authorName }}</h1>' +
   '<nav>' +
@@ -17,20 +11,16 @@ var headerTemplate =
   '  </ul>' +
   '</nav>';
   
-var footerData = {
-  links:[{page: "Contact"},
-         {page: "Social"},
-         {page: "Github"},
-         {page: "LinkedIn"},
-         {page: "Twitter"},
-         {page: "Email"},
-         {page: "Copyright © Shane Lister 2016"}]
-};
-
-var footerTemplate =
+var footerSource =
   '{{#each links}}' +
   ' <p>{{ page }}</p>' +
   '{{/each}}';
+  
+function jsonCallBack(json, destination, source)
+{
+  var template = Handlebars.compile(source);
+  $(destination).html(template(json));
+}
 
 var context = { bigPhoto: "img/big-photo.jpg", 
                  tagLine: "Shane Lister tagline",
@@ -42,14 +32,16 @@ var context = { bigPhoto: "img/big-photo.jpg",
 
 // DOM ready
 $(function() {
-
+  
   // Header
-  var headerFunction = Handlebars.compile(headerTemplate);
-  $("header").html(headerFunction(headerData));
+  $.getJSON("data/header.min.json", function(json) {
+    jsonCallBack(json, "header", headerSource);
+  });
 
   // Footer
-  var footerFunction = Handlebars.compile(footerTemplate);
-  $("footer").html(footerFunction(footerData));
+  $.getJSON("data/footer.min.json", function(json) {
+    jsonCallBack(json, "footer", footerSource);
+  });
   
   // Main Content
   var template = $('#main-content').html();

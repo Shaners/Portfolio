@@ -1,17 +1,19 @@
 # Snap Persona - Web Portfolio Template
 
-Easily build a personal portfolio website to demonstrate your skills and past work.
+Easily build a personal portfolio website to demonstrate your skills and past work. Will automatically concatenate and minify your source javascript and css. Will automatically add CSS prefixes. Uses handlebars to decouple your data from html structure. Write your css in with Sass and have it automatically compile.
 
 ## Task List
 
 **v0.0.3**
-- [ ] Convert the header and footer to partials
-- [ ] Write a better description
+- [X] Convert data to JSON files
+- [X] Minimize json files
+- [X] Write a better description
 - [X] Create a better project name
 - [ ] Layout about.html
 - [ ] Layout contact.html
 - [ ] Layout skills.html
 - [ ] Layout work.html
+- [ ] Convert GA to a partial (or jsut include in the footer?)
 
 **v0.0.2**
 - [X] Push node_modules out of git
@@ -54,11 +56,11 @@ Clone Repo:
 
 ```$ git clone https://github.com/Shaners/portfolio.git```
 
+Install Gulp Globally:
+
+```$ npm install -g gulp```
+
 Install Dependencies:
-
-```$ npm install gulp gulp-autoprefixer gulp-cssnano gulp-concat gulp-uglify gulp-notify gulp-rename --save-dev```
-
-Or:
 
 ```$ npm install```
 

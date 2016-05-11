@@ -6,7 +6,9 @@ Thoughts that went into planning and implementing this project.
 Put data into jason files. Get gulp compiling handlebars. Get gulp data feeding gulp handlebars. Projects as partials.
 
 **v0.0.3**
-Partials running. Better description. New name. All basic pages added.
+Better description. New name. All basic pages added.
+
+Should we concat json files?
 
 **v0.0.2**
 Gulp tasks running. Other basic pages constructed. Add fonts.
