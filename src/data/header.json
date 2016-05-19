@@ -1,5 +1,10 @@
 {
   "headerLogo": "img/header-logo.png",
   "authorName": "Shane Lister",
-  "nav":[{"page": "Work"},{"page": "Skills"},{"page": "About"},{"page": "Contact"}]
+  "nav":[
+    {"page": "Work", "url": "work.html"},
+    {"page": "Skills", "url": "skills.html"},
+    {"page": "About", "url": "about.html"},
+    {"page": "Contact", "url": "contact.html"}
+  ]
 }

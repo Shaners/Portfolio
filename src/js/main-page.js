@@ -1,12 +1,12 @@
 /* global $ Handlebars*/
 
 var headerSource =
-  '<img src="{{ headerLogo }}">' +
+  '<a href="."><img src="{{ headerLogo }}"></a>' +
   '<h1>{{ authorName }}</h1>' +
   '<nav>' +
   '  <ul>' +
   '    {{#each nav}}' +
-  '      <li><a href="#">{{ page }}</a></li>' +
+  '      <li><a href="{{ url }}">{{ page }}</a></li>' +
   '    {{/each}}' +
   '  </ul>' +
   '</nav>';
@@ -43,9 +43,13 @@ $(function() {
     jsonCallBack(json, "footer", footerSource);
   });
   
-  // Main Content
-  var template = $('#main-content').html();
-  var templateScript = Handlebars.compile(template);
-  $("main").html(templateScript(context));
+  // Compile and place main page content only on the main page
+  // This could probably be a function
+  if ($("#main-content").length !== 0) {
+    // Main Content
+    var template = $('#main-content').html();
+    var templateScript = Handlebars.compile(template);
+    $("main").html(templateScript(context));
+  }
 
 });

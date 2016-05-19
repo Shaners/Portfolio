@@ -4,16 +4,26 @@ Easily build a personal portfolio website to demonstrate your skills and past wo
 
 ## Task List
 
+**v0.0.4**
+- [ ] Gulp Sass connection working
+- [ ] Gulp compile working
+- [ ] Main page data into json file
+- [ ] About page data into json file
+- [ ] Contact page data into json file
+- [ ] Skills page data into json file
+- [ ] Work page data into json file
+- [ ] Review gulp data and gulp compile connection
+- [ ] Review how things are loading
+
 **v0.0.3**
 - [X] Convert data to JSON files
 - [X] Minimize json files
 - [X] Write a better description
 - [X] Create a better project name
-- [ ] Layout about.html
-- [ ] Layout contact.html
-- [ ] Layout skills.html
-- [ ] Layout work.html
-- [ ] Convert GA to a partial (or jsut include in the footer?)
+- [X] Layout about.html
+- [X] Layout contact.html
+- [X] Layout skills.html
+- [X] Layout work.html
 
 **v0.0.2**
 - [X] Push node_modules out of git
@@ -74,6 +84,7 @@ Install Dependencies:
 
 | Version | Date | Changes |
 | ------- | ---- | ------- |
+| **v0.0.3** | 2016-05-18 | Header and footer data into json files. Added json minification. Created bases for each html page. |
 | **v0.0.2** | 2016-05-05 | Gulp tasks running. Main page constructed. Added fonts. |
 | **v0.0.1** | 2016-04-29 | Most files in place. Structure decisions made. Basic html layout in place. |
 

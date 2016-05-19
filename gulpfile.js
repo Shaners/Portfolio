@@ -36,6 +36,7 @@ gulp.task('data', function () {
     .pipe(rename({suffix: '.min'}))
     .pipe(jsonminify())
     .pipe(gulp.dest('public/data'))
+    .pipe(notify({ message: 'Data task complete' }));
 });
 
 gulp.task('watch', function() {

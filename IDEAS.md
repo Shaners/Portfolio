@@ -3,12 +3,10 @@
 Thoughts that went into planning and implementing this project.
 
 **v0.0.4**
-Put data into jason files. Get gulp compiling handlebars. Get gulp data feeding gulp handlebars. Projects as partials.
+Gulp pre-compiling handlebars. Gulp data feeding gulp handlebars. Gulp Sass working.
 
 **v0.0.3**
-Better description. New name. All basic pages added.
-
-Should we concat json files?
+Better description. New name. All basic pages added. Put data into json files.
 
 **v0.0.2**
 Gulp tasks running. Other basic pages constructed. Add fonts.
@@ -22,6 +20,5 @@ Revisit:
 - [ ] Sass
 - [ ] Gulp Sass
 - [ ] Webpack
-- [ ] CDN then local falback
-- [ ] Structured data markup
+- [ ] Structured data markup - microdata - Rich Cards
 - [ ] Search

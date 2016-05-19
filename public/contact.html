@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Contact Shane Lister</title>
+  <meta name="description" content="description">
+  <meta name="author" content="Shane Lister">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <header></header>
+  
+  <main>
+    <script id="contact-content" type="text/x-handlebars-template">
+      <h1>Contact {{ author }}</h1>
+      <a href="mailto:shane@atramentous.com">
+        <button>Contact Me</button>
+      </a>
+      
+      <h2>Social Media</h2>
+      {{#each socialMedia}}
+        <a href="{{ url }}" target="_blank">
+          <img src="{{ image }}">
+          <h3>{{ name }}</h3>
+        </a>
+      {{/each}}
+      
+    </script>
+  </main>
+
+  <footer></footer>
+  
+  <script src="js/main.min.js"></script>
+  
+</body>
+</html>
