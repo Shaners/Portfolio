@@ -2,6 +2,9 @@
 
 Thoughts that went into planning and implementing this project.
 
+**v0.0.5**
+Styling in place.
+
 **v0.0.4**
 Gulp pre-compiling handlebars. Gulp data feeding gulp handlebars. Gulp Sass working.
 

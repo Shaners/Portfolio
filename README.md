@@ -5,15 +5,20 @@ Easily build a personal portfolio website to demonstrate your skills and past wo
 ## Task List
 
 **v0.0.4**
-- [ ] Gulp Sass connection working
-- [ ] Gulp compile working
-- [ ] Main page data into json file
-- [ ] About page data into json file
-- [ ] Contact page data into json file
-- [ ] Skills page data into json file
-- [ ] Work page data into json file
-- [ ] Review gulp data and gulp compile connection
-- [ ] Review how things are loading
+- [X] Gulp Sass connection working
+- [X] Gulp compile working
+- [X] Figure out structure / workflow
+- [X] Get gulp json merge working
+- [X] Review JS plan
+- [X] Add all handlebas template files
+- [X] Load individual js files via template
+- [X] Add a common js file
+- [X] Push index data to json file
+- [X] Convert all pages to .handlebars
+- [X] Get gulp watching and compiling html files
+- [X] Get json file feeding index template
+- [X] Review gulpfile.js for clean up
+- [X] Review how things are loading
 
 **v0.0.3**
 - [X] Convert data to JSON files

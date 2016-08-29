@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Skills - Shane Lister</title>
+  <title>Shane Lister : Skills</title>
   <meta name="description" content="description">
   <meta name="author" content="Shane Lister">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,29 +20,37 @@
 </head>
 
 <body>
-  <header></header>
+
+  <header>
+    <a href="."><img src="img/header-logo.png"></a>
+    <h1>Shane Lister</h1>
+    <nav>
+      <ul>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   
   <main>
-    <script id="skills-content" type="text/x-handlebars-template">
     
-      <h1>Skill Set<h1>
-       
-      {{#each area}}
-        <div>
-          <h2>{{ title }}</h2>
-          {{#each skills}}
-            <h3>{{ name }}</h3><h4>{{ textLevel }}</h4>
-            <progress max="100" value="{{ value }}"></progress>
-          {{/each}}
-        </div>
-      {{/each}}
-      
-    </script>
   </main>
-
-  <footer></footer>
   
+  
+  <footer>
+     <p>Contact</p>
+     <p>Social</p>
+     <p>Github</p>
+     <p>LinkedIn</p>
+     <p>Twitter</p>
+     <p>Email</p>
+     <p>Blog</p>
+     <p>Copyright © Shane Lister 2016</p>
+  </footer>
   <script src="js/main.min.js"></script>
+  <script src="js/skills-page.min.js"></script>
   
 </body>
 </html>

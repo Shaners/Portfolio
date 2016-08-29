@@ -1,0 +1,10 @@
+{
+  "bigPhoto": "img/big-photo.jpg", 
+  "tagLine": "Shane Lister tagline !data006!",
+  "authorBlurb": "Shane Lister blurb",
+  "featuredProjects": [
+    {"image": "img/project-image.png", "name": "Project Title 1", "blurb": "Blurb 1"},
+    {"image": "img/project-image.png", "name": "Project Title 2", "blurb": "Blurb 2"},
+    {"image": "img/project-image.png", "name": "Project Title 3", "blurb": "Blurb 3"}
+  ]
+}

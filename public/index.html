@@ -20,31 +20,59 @@
 </head>
 
 <body>
-  <header></header>
+
+  <header>
+    <a href="."><img src="img/header-logo.png"></a>
+    <h1>Shane Lister</h1>
+    <nav>
+      <ul>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   
   <main>
-    <script id="main-content" type="text/x-handlebars-template">
-      <img src="{{ bigPhoto }}">
-      <h1>{{ tagLine }}</h1>
-      <p>{{ authorBlurb }}</p>
-  
-      <h2>My Work</h2>
-      
-      {{#each featuredProjects}}
-        <section>
-          <img src="{{ image }}">
-          <h3>{{ name }}</h3>
-          <p>{{ blurb }}</p>
-        </section>
-      {{/each}}
-  
-      <p><a href="#">See more work</a></p>
-    </script>
+    <img src="img/big-photo.jpg">
+    <h1>Shane Lister tagline !data006! !template003!</h1>
+    <p>Shane Lister blurb</p>
+    
+    <h2>My Work</h2>
+    
+      <section>
+        <img src="img/project-image.png">
+        <h3>Project Title 1</h3>
+        <p>Blurb 1</p>
+      </section>
+      <section>
+        <img src="img/project-image.png">
+        <h3>Project Title 2</h3>
+        <p>Blurb 2</p>
+      </section>
+      <section>
+        <img src="img/project-image.png">
+        <h3>Project Title 3</h3>
+        <p>Blurb 3</p>
+      </section>
+    
+    <p><a href="#">See more work</a></p>
   </main>
-
-  <footer></footer>
   
+  
+  <footer>
+     <p>Contact</p>
+     <p>Social</p>
+     <p>Github</p>
+     <p>LinkedIn</p>
+     <p>Twitter</p>
+     <p>Email</p>
+     <p>Blog</p>
+     <p>Copyright © Shane Lister 2016</p>
+  </footer>
   <script src="js/main.min.js"></script>
+  <script src="js/index-page.min.js"></script>
   
 </body>
 </html>
